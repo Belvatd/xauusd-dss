@@ -116,14 +116,23 @@ Untuk menjamin transparansi keputusan, atribusi kontribusi setiap fitur kontekst
 
 ## 2.3 Posisi Penelitian Terhadap Literatur Terkait
 
-| Dimensi Komparasi | Studi Prediksi Arah Harga Konvensional | **Pendekatan Penelitian Ini** |
-| :--- | :--- | :--- |
-| **Unit Analisis** | Berbasis Waktu (*time-step* / per candle) | **Berbasis Event (*first-touch event* pada $T_0$)** |
-| **Target Prediksi** | Arah Return Nominal ($\text{Return} > 0$) | **Struktur Reaksi Likuiditas (4 Kelas Saling Lepas)** |
-| **Bentuk Output** | Sinyal Biner Hitam-Putih | **Probabilitas Terkalibrasi + Zona Abstain** |
-| **Metrik Evaluasi** | Akurasi Sederhana | **PR-AUC, Brier Score, ECE, MCC** |
-| **Skema Validasi** | K-Fold Acak Standar | **Purged Expanding Walk-Forward CV + Embargo** |
-| **Pencegahan Kebocoran**| Jarang dinyatakan eksplisit | **Sertifikasi Point-in-Time & Audit Invarian T1–T14** |
+Tinjauan terhadap penelitian prediksi pergerakan harga emas (*XAUUSD*) dan sistem perdagangan berbasis data menunjukkan dua spektrum metodologi:
+
+1. **Studi Prediksi Arah Lilin (*Candle Direction*) Naif:**
+   Novianto dan Wibowo (2023) meneliti klasifikasi tren harga XAUUSD menggunakan *Gaussian Naïve Bayes* pada data tahun 2022 untuk timeframe D1, H4, dan H1. Penelitian tersebut menghasilkan *F1-score* berkisar antara 49,99% (D1) hingga 55,44% (H1). Rendahnya akurasi yang mendekati probabilitas acak (~50%) mengonfirmasi bahwa prediksi arah *candle* kontinu berbasis harga mentah tanpa struktur likuiditas terjebak dalam fenomena *random walk*.
+2. **Studi Peramalan Hibrida & Sistem Pendukung Keputusan:**
+   Masoumian dan Shafaei (2026) merancang sistem perdagangan hibrida pada 300.000+ data M5 XAUUSD (2021–2025) yang mengombinasikan *XGBoost* dengan filter konfirmasi berbasis aturan. Studi tersebut membuktikan bahwa pemodelan XAUUSD membutuhkan normalisasi volatilitas (ATR), pembatasan jendela sesi likuiditas tinggi (London-New York overlap), serta validasi *purged walk-forward* dan simulasi Monte Carlo untuk mencegah *lookahead bias* dan *overfitting*.
+
+Tabel berikut merangkum pemosisian penelitian ini terhadap kedua literatur tersebut:
+
+| Dimensi Komparasi | Novianto & Wibowo (2023) | Masoumian & Shafaei (2026) | **Pendekatan Penelitian Ini** |
+| :--- | :--- | :--- | :--- |
+| **Unit Analisis** | Berbasis Waktu (*time-step* / per candle) | Berbasis Waktu (*rolling M5 window*) | **Berbasis Event (*first-touch event* pada $T_0$)** |
+| **Target Prediksi** | Arah Lilin Biner (Naik / Turun) | Peramalan 12-Step OHLC $\rightarrow$ *Deviation Score* | **Struktur Reaksi Likuiditas (4 Kelas Saling Lepas)** |
+| **Rekayasa Fitur** | Data Mentah OHLCV (Non-Stasioner) | 28 Fitur Indikator & Rasio Geometri | **~40 Fitur (5 Famili: Sesi, ATR, Tren, Geometri, Dinamika)** |
+| **Bentuk Output** | Sinyal Biner Hitam-Putih | Sinyal Eksekusi Otomatis (*Expert Advisor*) | **Probabilitas Terkalibrasi + Zona Abstain (*DSS*)** |
+| **Metrik Evaluasi** | Akurasi & F1-Score Sederhana | Metrik Finansial (Sharpe, Profit Factor, DD) | **PR-AUC, Brier Score, ECE, MCC, SHAP Value** |
+| **Skema Validasi** | *Random Split* 80:20 | *Purged Walk-Forward* + Monte Carlo 50k | ***Purged Expanding Walk-Forward CV* + Embargo 6-Bar + OOS Terkunci** |
 
 ---
 

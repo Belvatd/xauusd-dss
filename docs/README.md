@@ -25,7 +25,8 @@ Dokumentasi ini merupakan repositori komprehensif seluruh ide, landasan teoretis
 | [**`13_alur_proses_training_ml.md`**](./13_alur_proses_training_ml.md) | **Alur dan *Tech Stack* Training ML**: Panduan 6 langkah operasional pelatihan model (dari penarikan data hingga *logging* di MLflow) beserta penjelasan daftar pustaka (*library*) Python yang dipakai. | *Proses Training* |
 - [14. Kamus Data Gold (Data Dictionary)](14_kamus_data_gold.md)
 - [15. Laporan Komprehensif: Rekayasa Fitur, Teori Statistik & ML (DSS)](15_laporan_komprehensif_pemodelan_ml.md)
-- [15. Plan: Implementasi API DSS](plans/02_api_implementation_plan.md)
+- [16. Kajian Literatur Komprehensif: Analisis Artikel Referensi & Relevansi Riset](16_kajian_literatur_dan_relevansi_riset.md)
+- [Plan: Implementasi API DSS](plans/02_api_implementation_plan.md)
 
 ---
 
