@@ -26,6 +26,7 @@ Dokumentasi ini merupakan repositori komprehensif seluruh ide, landasan teoretis
 - [14. Kamus Data Gold (Data Dictionary)](14_kamus_data_gold.md)
 - [15. Laporan Komprehensif: Rekayasa Fitur, Teori Statistik & ML (DSS)](15_laporan_komprehensif_pemodelan_ml.md)
 - [16. Kajian Literatur Komprehensif: Analisis Artikel Referensi & Relevansi Riset](16_kajian_literatur_dan_relevansi_riset.md)
+- [17. Naskah Lengkap Artikel Jurnal Riset (Siap Publikasi)](17_naskah_artikel_jurnal_riset.md)
 - [Plan: Implementasi API DSS](plans/02_api_implementation_plan.md)
 
 ---

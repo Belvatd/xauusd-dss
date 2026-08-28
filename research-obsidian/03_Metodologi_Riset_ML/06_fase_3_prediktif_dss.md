@@ -1,3 +1,7 @@
+---
+tags: [metodologi-riset-ml]
+---
+
 # 06. Fase 3: Pemodelan Prediktif & Sistem Pendukung Keputusan (DSS)
 
 Dokumen ini memaparkan spesifikasi teknis Tahap 3 (Prediktif) yang menjawab **Rumusan Masalah 3 (RM3)**: *"Sejauh mana model machine learning mampu mengestimasi probabilitas sweep vs breakout secara terkalibrasi, dan apakah kemampuannya mengungguli garis dasar (base rate dan tebakan naif)?"*.
@@ -57,9 +61,9 @@ Sebuah model Machine Learning hanya dapat diklaim memberikan nilai tambah jika t
 
 | Tingkat Baseline | Definisi & Formula | Sumber Metodologis | Makna Ilmiah Bila Model Gagal Mengalahkan |
 | :--- | :--- | :---: | :--- |
-| **B0 (Garis Dasar Nol)** | Tebak selalu kelas mayoritas (*Base Rate* harian: 51,58%). | D3 (Fase 1) | Model sama sekali tidak mempelajari pola pasar. |
-| **B1 (Garis Dasar Aturan Tunggal)** | Aturan heuristik terbaik (misal: `IF adr_used_pct > 80% THEN Sweep`). | G3 / G5 (Fase 2) | Machine Learning kompleks tidak memberikan nilai tambah di atas aturan sederhana. |
-| **B2 (Garis Dasar Linier)** | Regresi Logistik teratur (L2) menggunakan 5 fitur teratas berdasarkan Information Value (IV). | G2 (Fase 2) | Kompleksitas model non-linier (*tree-based*) tidak sepadan dengan hilangnya interpretabilitas. |
+| **B0 (Garis Dasar Nol)** | Tebak selalu kelas mayoritas (*Base Rate* harian: 51,58%). | [[04_fase_1_deskriptif\|D3 (Fase 1)]] | Model sama sekali tidak mempelajari pola pasar. |
+| **B1 (Garis Dasar Aturan Tunggal)** | Aturan heuristik terbaik (misal: `IF adr_used_pct > 80% THEN Sweep`). | [[05_fase_2_diagnostik\|G3 / G5 (Fase 2)]] | Machine Learning kompleks tidak memberikan nilai tambah di atas aturan sederhana. |
+| **B2 (Garis Dasar Linier)** | Regresi Logistik teratur (L2) menggunakan 5 fitur teratas berdasarkan Information Value (IV). | [[05_fase_2_diagnostik\|G2 (Fase 2)]] | Kompleksitas model non-linier (*tree-based*) tidak sepadan dengan hilangnya interpretabilitas. |
 
 > **Prinsip Parsimoni:** Jika model *Gradient Boosting* hanya unggul tipis ($< 1,5\%$) di atas Regresi Logistik, **pilih Regresi Logistik** karena dalam DSS medis/finansial, kesederhanaan dan transparansi bobot koefisien jauh lebih berharga.
 

@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "eb1f0f2ebcaacacd",
+    "type": "split",
+    "children": [
+      {
+        "id": "c64d6bd7291c2ddb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f876bc275d9e2a0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05_Dokumen_Formal/08_draft_proposal_skripsi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "08_draft_proposal_skripsi"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e000cf5718e06545",
+    "type": "split",
+    "children": [
+      {
+        "id": "7eb6bb3da50d20ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62cc27c013d464e5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "506b3dad7e0dced2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b0d89d105c6c6372",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f1dec49ebab522d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "695e790f9860b37d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42ff1965194f91fb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "05_Dokumen_Formal/08_draft_proposal_skripsi.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 08_draft_proposal_skripsi"
+            }
+          },
+          {
+            "id": "85dfb9302e9dbae1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "05_Dokumen_Formal/08_draft_proposal_skripsi.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 08_draft_proposal_skripsi"
+            }
+          },
+          {
+            "id": "0491618a42e2853c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "073a37b22a587baf",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2e7287094c8dbac7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "05_Dokumen_Formal/08_draft_proposal_skripsi.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 08_draft_proposal_skripsi"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f876bc275d9e2a0c",
+  "lastOpenFiles": [
+    "05_Dokumen_Formal/07_catatan_review_dan_perbaikan_desain.md",
+    "05_Dokumen_Formal/17_naskah_artikel_jurnal_riset.md",
+    "05_Dokumen_Formal/16_kajian_literatur_dan_relevansi_riset.md",
+    "03_Metodologi_Riset_ML/11_algoritma_machine_learning.md",
+    "03_Metodologi_Riset_ML/13_alur_proses_training_ml.md",
+    "03_Metodologi_Riset_ML/06_fase_3_prediktif_dss.md",
+    "05_Dokumen_Formal/08_draft_proposal_skripsi.md",
+    "Untitled.md",
+    "03_Metodologi_Riset_ML/04_fase_1_deskriptif.md",
+    "02_Data_Engineering/modul_1_raw_data_onboarding.md",
+    "01_Konsep_Dasar/00_base_knowledge.md",
+    "Welcome.md",
+    "00_Dashboard.md",
+    "05_Dokumen_Formal/02_decision_log.md",
+    "05_Dokumen_Formal",
+    "04_Evaluasi_Hasil/15_laporan_komprehensif_pemodelan_ml.md",
+    "04_Evaluasi_Hasil/12_alur_evaluasi_model_ml.md",
+    "04_Evaluasi_Hasil",
+    "03_Metodologi_Riset_ML/modul_5_genai_analytics.md",
+    "03_Metodologi_Riset_ML/05_fase_2_diagnostik.md",
+    "03_Metodologi_Riset_ML",
+    "02_Data_Engineering/modul_4_pipeline_automation.md",
+    "02_Data_Engineering/modul_2_data_quality_assurance.md",
+    "02_Data_Engineering/modul_3_gold_aggregations.md",
+    "02_Data_Engineering/14_kamus_data_gold.md",
+    "02_Data_Engineering/09_implementasi_script_medallion.md",
+    "02_Data_Engineering/03_data_engineering_medallion.md",
+    "02_Data_Engineering",
+    "01_Konsep_Dasar/10_glosarium_dan_identitas_data.md",
+    "01_Konsep_Dasar/01_arsitektur_dan_ide_riset.md",
+    "01_Konsep_Dasar",
+    "build_vault.py"
+  ]
+}

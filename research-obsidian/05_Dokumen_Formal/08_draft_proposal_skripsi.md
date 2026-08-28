@@ -1,3 +1,7 @@
+---
+tags: [dokumen-formal]
+---
+
 # 08. Naskah Lengkap Draft Proposal Skripsi
 
 > **Dokumen Akademik:** Proposal Penelitian — Skripsi Program Studi Informatika / Ilmu Komputer (Semester 7)  
